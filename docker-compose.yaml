@@ -1,0 +1,16 @@
+# Author: Ashton Foulger
+# Date: 8/12/22
+# Version: 0.1
+
+version: "3.8"
+
+services:
+  mariadb:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - ./db:/var/lib/mysql
+    ports:
+      - 3306:3306
