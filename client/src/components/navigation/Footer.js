@@ -1,6 +1,5 @@
 //Import React
 import React from "react";
-import { Link } from "react-router-dom";
 
 //Display Footer
 const Footer = () => {
@@ -20,21 +19,11 @@ const Footer = () => {
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link px-2 text-muted">
-              Pricing
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">
-              FAQs
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">
               About
             </a>
           </li>
         </ul>
-        <p class="text-center text-muted">© 2022 Company, Inc</p>
+        <p class="text-center text-muted">© 2022 Ashton Foulger</p>
       </footer>
     </div>
   );
